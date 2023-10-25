@@ -19,11 +19,11 @@ require (
 	github.com/mitchellh/copystructure v1.2.0
 	github.com/otiai10/copy v1.10.0
 	github.com/pkg/errors v0.9.1
-	github.com/stretchr/testify v1.8.2
+	github.com/stretchr/testify v1.8.3
 	github.com/teris-io/shortid v0.0.0-20220617161101-71ec9f2aa569
 	github.com/testcontainers/testcontainers-go v0.20.1
 	golang.org/x/mod v0.10.0
-	google.golang.org/grpc v1.55.0
+	google.golang.org/grpc v1.56.3
 )
 
 require (
@@ -35,14 +35,14 @@ require (
 	github.com/Microsoft/go-winio v0.6.1 // indirect
 	github.com/armon/go-metrics v0.4.1 // indirect
 	github.com/cenkalti/backoff/v4 v4.2.1 // indirect
-	github.com/cncf/xds/go v0.0.0-20230310173818-32f1caf87195 // indirect
+	github.com/cncf/xds/go v0.0.0-20230607035331-e9ce68804cb4 // indirect
 	github.com/containerd/containerd v1.7.1 // indirect
 	github.com/cpuguy83/dockercfg v0.3.1 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/docker/distribution v2.8.1+incompatible // indirect
 	github.com/docker/go-units v0.5.0 // indirect
-	github.com/envoyproxy/go-control-plane v0.11.0 // indirect
-	github.com/envoyproxy/protoc-gen-validate v0.10.0 // indirect
+	github.com/envoyproxy/go-control-plane v0.11.1-0.20230524094728-9239064ad72f // indirect
+	github.com/envoyproxy/protoc-gen-validate v0.10.1 // indirect
 	github.com/fatih/color v1.14.1 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
