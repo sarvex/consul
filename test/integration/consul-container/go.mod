@@ -5,7 +5,7 @@ go 1.20
 require (
 	fortio.org/fortio v1.54.0
 	github.com/avast/retry-go v3.0.0+incompatible
-	github.com/docker/docker v24.0.7+incompatible
+	github.com/docker/docker v24.0.9+incompatible
 	github.com/docker/go-connections v0.4.0
 	github.com/hashicorp/consul/api v1.20.0
 	github.com/hashicorp/consul/envoyextensions v0.1.2
