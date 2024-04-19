@@ -56,7 +56,7 @@ jobs:
       if: ${{ endsWith(github.repository, '-enterprise') }}
       run: git config --global url."https://${{ secrets.ELEVATED_GITHUB_TOKEN }}:@github.com".insteadOf "https://github.com"
       
-    - uses: actions/setup-go@883490dfd06f396ebe0b738bc313a53cf9d851e5 # pin@v3.5.0
+    - uses: actions/setup-go@cdcb36043654635271a94b9a6d1392de5bb323a7 # pin@v3.5.0
       with:
         go-version-file: 'go.mod'
     - name: Build
@@ -80,7 +80,7 @@ jobs:
       if: ${{ endsWith(github.repository, '-enterprise') }}
       run: git config --global url."https://${{ secrets.ELEVATED_GITHUB_TOKEN }}:@github.com".insteadOf "https://github.com"
       
-    - uses: actions/setup-go@883490dfd06f396ebe0b738bc313a53cf9d851e5 # pin@v3.5.0
+    - uses: actions/setup-go@cdcb36043654635271a94b9a6d1392de5bb323a7 # pin@v3.5.0
       with:
         go-version-file: 'go.mod'
     - name: Build
@@ -106,7 +106,7 @@ jobs:
       run: git config --global url."https://${{ secrets.ELEVATED_GITHUB_TOKEN }}:@github.com".insteadOf "https://github.com"
       
 
-    - uses: actions/setup-go@883490dfd06f396ebe0b738bc313a53cf9d851e5 # pin@v3.5.0
+    - uses: actions/setup-go@cdcb36043654635271a94b9a6d1392de5bb323a7 # pin@v3.5.0
       with:
         go-version-file: 'go.mod'
     - run: |
