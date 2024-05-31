@@ -26,7 +26,7 @@ jobs:
       compute-large: ${{ steps.setup-outputs.outputs.compute-large }}
       compute-xl: ${{ steps.setup-outputs.outputs.compute-xl }}
     steps:
-    - uses: actions/checkout@97a652b80035363df47baee5031ec8670b8878ac # pin@v3.3.0
+    - uses: actions/checkout@b80ff79f1755d06ba70441c368a6fe801f5f3a62 # pin@v3.3.0
     - id: setup-outputs
       name: Setup outputs
       run: ./.github/scripts/get_runner_classes.sh
@@ -49,7 +49,7 @@ jobs:
       XC_OS: "freebsd linux windows"
     runs-on: ${{ fromJSON(needs.setup.outputs.compute-xl) }}
     steps:
-    - uses: actions/checkout@97a652b80035363df47baee5031ec8670b8878ac # pin@v3.3.0
+    - uses: actions/checkout@b80ff79f1755d06ba70441c368a6fe801f5f3a62 # pin@v3.3.0
 
     # NOTE: This step is specifically needed for ENT. It allows us to access the required private HashiCorp repos.
     - name: Setup Git
@@ -73,7 +73,7 @@ jobs:
       XC_OS: "darwin freebsd linux solaris windows"
     runs-on: ${{ fromJSON(needs.setup.outputs.compute-xl) }}
     steps:
-    - uses: actions/checkout@97a652b80035363df47baee5031ec8670b8878ac # pin@v3.3.0
+    - uses: actions/checkout@b80ff79f1755d06ba70441c368a6fe801f5f3a62 # pin@v3.3.0
 
     # NOTE: This step is specifically needed for ENT. It allows us to access the required private HashiCorp repos.
     - name: Setup Git
@@ -98,7 +98,7 @@ jobs:
       CGO_ENABLED: 1
       GOOS: linux
     steps:
-    - uses: actions/checkout@97a652b80035363df47baee5031ec8670b8878ac # pin@v3.3.0
+    - uses: actions/checkout@b80ff79f1755d06ba70441c368a6fe801f5f3a62 # pin@v3.3.0
 
     # NOTE: This step is specifically needed for ENT. It allows us to access the required private HashiCorp repos.
     - name: Setup Git

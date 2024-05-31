@@ -52,7 +52,7 @@ jobs:
   go-test:
     runs-on: ${{ fromJSON(inputs.runs-on) }}
     steps:      
-      - uses: actions/checkout@97a652b80035363df47baee5031ec8670b8878ac # pin@v3.3.0
+      - uses: actions/checkout@b80ff79f1755d06ba70441c368a6fe801f5f3a62 # pin@v3.3.0
       # NOTE: This step is specifically needed for ENT. It allows us to access the required private HashiCorp repos.
       - name: Setup Git
         if: ${{ endsWith(inputs.repository-name, '-enterprise') }}
