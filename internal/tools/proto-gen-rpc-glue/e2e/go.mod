@@ -6,5 +6,5 @@ replace github.com/hashicorp/consul => ./consul
 
 require (
 	github.com/hashicorp/consul v1.14.5
-	google.golang.org/protobuf v1.28.1 // indirect
+	google.golang.org/protobuf v1.33.0 // indirect
 )
